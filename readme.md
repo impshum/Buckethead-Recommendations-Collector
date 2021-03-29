@@ -2,6 +2,8 @@
 
 Grabs all the recommendations from r/buckethead and dumps them all in the wiki.
 
+![](banner.jpg)
+
 ### Instructions
 
 -   Install requirements `pip install -r requirements.txt`
