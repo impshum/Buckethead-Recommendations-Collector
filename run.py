@@ -102,8 +102,7 @@ def write_to_wiki(conn, reddit):
 
     new_wiki += get_stats(conn)
 
-    # reddit.subreddit(reddit_target_subreddit).wiki[reddit_target_wiki_page].edit(content=new_wiki)
-    reddit.subreddit("impshums").wiki[reddit_target_wiki_page].edit(
+    reddit.subreddit(reddit_target_subreddit).wiki[reddit_target_wiki_page].edit(
         content=new_wiki)
     print('Updated wiki')
 
